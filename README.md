@@ -1,2 +1,2 @@
 # Weather-App
-A weather App  shows the weather condition of a city at a particular time.
+A weather App that  shows the weather condition of a city at a particular time.
