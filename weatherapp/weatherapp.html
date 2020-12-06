@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+   <link rel="stylesheet" href="C:\Users\user\Downloads\fontawesome-free-5.15.1-web\css\all.css" >
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="weatherapp.css">
+</head>
+<body>
+    <!-- A SIMPLE WEATHER APP THA DISPLAY THE WEATHER CONDITION OF A PARTICULAR PLACE  -->
+
+    <div class="container">
+        <h2 id="enterlocation" style="text-align: center;">ENTER LOCATION:</h2>
+        <label id="inputt">
+         <input type="text" id="inputted"> 
+         <button id="btn" onclick="effect()"><i class="fa fa-search" aria-hidden="true" style="font-size: 25px;"></i></button>
+        </label>
+    </div>
+    <!--THIS WILLL BE DISPLAY WHEN THE API RETURNS THE DATA.-->
+    <div class="displayweather">
+        <h1 style="text-align: center;">Location: </h1>
+        <div class="display-fulllocation">
+            <p class="country"> </p>
+            <p class="latitude"> </p>
+            <p class="longitude"> </p>
+        </div>
+        <div class="weather">
+            <p class="weatherconditions"> 
+                <p class="temp"></p>
+            <p class="humidity">   </p>
+            <p class="pressure">  </p>
+            <p class="winddeg"> </p>
+            <p class="windspeed">  </p>
+            <p class="condition">  </p>
+        </div>
+        <div class="close">
+            <button id="close" onclick="cloose()">X</button>
+        </div>
+        
+
+    </div>
+
+    <script src="weatherapp.js">
+    </script>
+</body>
+</html>
